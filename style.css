@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "DM";
+    src: url(font/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Col";
+    src: url(font/coolvetica\ rg.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+header{
+    font-family: "DM";
+    padding: 30px 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #565656;
+    font-size: 20px;
+}
+
+.esp{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+}
+
+.banner{
+    background-image: url(img/MLbannner.png);
+    background-size: cover;
+    
+    padding: 250px 0px 120px 80px;
+    
+    
+}
+
+.logo{
+    font-family: "DM";
+    font-size: 21px;
+    color: white;
+}
+
+.sabores{
+    font-family: "Col";
+    font-size: 55px;
+    color: white;
+}
+
+.banner button{
+    font-size: 16px;
+    height: 36px;
+    width: 156px;
+    border-radius: 13px;
+}
+
+.pratos{
+    display: flex;
+   justify-content: center;
+   font-family: "DM";
+   font-size: 40px;
+   padding-top: 50px;
+}
