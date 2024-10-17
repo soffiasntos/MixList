@@ -6,25 +6,115 @@
     <title>MixLix</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+    function agenda() {
+        window.location.href = 'reserva.html';
+    }
+    function menu() {
+        window.location.href = 'Menu.html';
+    }
+</script>
 <body>
     <header>
         <nav>
-            <div class="esp"> <a href="">MixLix
+            <div class="esp"> <a href="#mixlix">MixLix
             </a>
-            <a href="">Contato</a></div>
+            <a href="#contato">Contato</a></div>
 
-            <a href="">Nosso Menu</a>
+            <a href="Menu.html">Nosso Menu</a>
         </nav>
     </header>
    <div class="banner">
     <p class="logo">MixLix</p>
     <p class="sabores">OS SABORES DO <br>BRASIL</p>
-    <button>Agendamento</button>
+    <button onclick="agenda()">Agendamento <img src="img/setaML.png" alt=""></button>
 
    </div>
-  <p class="pratos">
-    Conheça nosso cardápio
-  </p>
 
+<main>
+     
+     <div class="sobre" id="mixlix">
+        <p class="Mix">MixLix</p>
+       
+        <p class="textosobre">No MixLix, acreditamos que cada refeição deve ser uma celebração. Nossa proposta é oferecer um cardápio diversificado, que mistura influências de diferentes culturas e tradições culinárias. Aqui, você encontrará desde pratos clássicos reinventados até criações exclusivas do nosso chef, sempre preparados com ingredientes frescos e de alta qualidade.</p>
+     </div>
+     <div class="hr"></div>
+    
+     <p class="pratos">
+        Conheça nosso cardápio
+       
+        </p>
+        <div class="hr" id="pr"></div>
+        
+        
+        
+      <div class="opcoes">
+        <div class="quadrado">
+            <img src="img/prato1.png" alt="">
+            <p class="nome">Mignon ao Molho Madeira</p>
+           
+    
+        </div>
+    
+        <div class="quadrado">
+            <img src="img/nprato2.png" alt="">
+            <p class="nome">Empanadas de soja com molho <br> pesto</p>
+            
+    
+        </div>
+    
+        <div class="quadrado">
+            <img src="img/prato3.png" alt="">
+            <p class="nome">Salmão ao molho branco</p>
+            
+    
+        </div>
+    
+    
+      </div>
+      
+      <div class="menu">
+        <button onclick="menu()" >IR PARA O MENU <img src="img/setaML.png" alt=""></button>
+    
+      </div>
+
+      <div class="hr"></div>
+
+     <p class="pratos">
+        Avaliações de nossos clientes </p>
+  <div class="avaliacoes">
+ 
+    <div class="avaliacao">
+        <p>"O MixList é incrível e tem pratos deliciosos em um ambiente sofisticado. Uma experiência imperdível em São Paulo. Volto com certeza!"</p>
+        <img src="img/Group 13.png" alt="">
+    </div>
+
+    <div class="avaliacao">
+        <p>"O ambiente é acolhedor e moderno, perfeito para um jantar relaxante. A decoração é cuidadosamente planejada, criando uma atmosfera vibrante e convidativa."</p>
+        <img src="img/Group 13.png" alt="">
+    </div>
+
+
+
+  </div>
+
+</main>
+
+<footer>
+    <nav >
+        <div id="contato">
+            <a href="#contato">Contato</a>
+            <a href="#mixlix">MixLix</a>
+            <a href="Menu.html">Nosso Menu</a>
+        </div>
+   
+    </nav>
+    <div class="hr"></div>
+  <img src="img/Group 19.png" alt="">
+</footer>
+
+
+  
 </body>
 </html>
