@@ -22,10 +22,10 @@
 
     <div class="pala">
         <p class="faca">FAÇA SUA RESERVA</p>
-        <form class="informacoes">
+        <form class="informacoes" id="reservaform">
             <input type="text" placeholder="Nome" id="no"> 
             <input type="email" placeholder="E-mail" id="ne">
-            <input type="number" placeholder="Telefone" id="assunto">
+            <input type="tel" onkeypress='return filtroTeclas(event)' placeholder="Telefone" id="assunto">
     
            
          
@@ -52,5 +52,6 @@
     </footer>
 
 </body>
+<script src="index.js" > </script>
 
 </html>
